@@ -7,6 +7,8 @@ const rateEl = document.getElementById('rate');
 const swap = document.getElementById('swap');
 
 // Fetch exchange rates and update the DOM
+// Fetch won't reject on HTTP Error Status (unlike AJAX)
+// Only rejects on something preventing it from firing
 // Link to more info on Fetch Requests
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 function caclulate() {

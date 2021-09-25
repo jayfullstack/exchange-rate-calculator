@@ -16,6 +16,12 @@ body {
   height: 100vh;
   margin: 0;
   padding: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
 }
 
 h1 {
@@ -32,11 +38,12 @@ p {
   cursor: pointer;
   border-radius: 5px;
   font-size: 12px;
-  padding: 5px 12px;
+  padding: 10px 30px;
 }
 
 .money-img {
-  width: 150px;
+  margin-top: 20px;
+  width: 120px;
 }
 
 .currency {
@@ -47,7 +54,7 @@ p {
 }
 
 .currency select {
-  padding: 10px 20px 10px 10px;
+  padding: 10px 40px 10px 10px;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -75,15 +82,15 @@ p {
 
 .rate {
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 18px;
   padding: 0 10px;
 }
 
-select:focus,
+/*select:focus,
 input:focus,
 button:focus {
   outline: 0;
-}
+}*/
 
 @media (max-width: 600px) {
   .currency input {
