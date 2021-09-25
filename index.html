@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="img/money.png" alt="" class="money-img" />
+    <img src="img/piggy-bank.png" alt="" class="money-img" />
     <h1>Exchange Rate Calculator</h1>
     <p>Choose the currency and the amounts to get the exchange rate</p>
     <section class="container">
       <ul class="currency-list">
         <li class="currency">
+          <!-- Select First Currency -->
           <select id="currency-one">
             <option value="AED">AED</option>
             <option value="ARS">ARS</option>
@@ -73,16 +74,19 @@
       </ul>
       <ul class="swap-rate-container">
         <li>
+          <!-- Swap Currencies -->
           <button class="btn" id="swap">
           Swap
           </button>
         </li>
         <li>
+          <!-- Displays the Currency Value -->
           <p class="rate" id="rate"></p>
         </li>
       </ul>
       <ul class="currency-list">
         <li class="currency">
+          <!-- Select Second Currency -->
           <select id="currency-two">
             <option value="AED">AED</option>
             <option value="ARS">ARS</option>
