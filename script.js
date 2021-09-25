@@ -7,6 +7,8 @@ const rateEl = document.getElementById('rate');
 const swap = document.getElementById('swap');
 
 // Fetch exchange rates and update the DOM
+// Link to more info on Fetch Requests
+// https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 function caclulate() {
   const currency_one = currencyEl_one.value;
   const currency_two = currencyEl_two.value;
